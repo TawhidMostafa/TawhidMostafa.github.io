@@ -1,4 +1,3 @@
-@media only screen and (min-width: 768px) {
 img {
   border-radius: 100%;
   width: 300px;
@@ -95,7 +94,6 @@ img {
   margin: 1px;
   padding: 1px;
 }
-}
 @media only screen and (max-width: 620px) {
   img{
     border-radius: 100%;
@@ -123,6 +121,12 @@ img {
   #edu_sec ul li{
     margin: 1px;
     padding: 3px;
+  }
+}
+@media only screen and (min-width: 620px) {
+  img{
+    border-radius: 100%;
+    width: 300px;
   }
 }
 
