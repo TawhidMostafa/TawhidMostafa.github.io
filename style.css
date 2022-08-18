@@ -1,0 +1,126 @@
+img {
+  border-radius: 100%;
+  width: 300px;
+}
+#varsity a:link {
+  background-color: transparent;
+  text-decoration: none;
+  color: #B9DAEC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#link_soc a:link{
+  background-color: transparent;
+  text-decoration: none;
+  color: #b0e8f5;
+  font-size: 45px;
+  padding: 5px;
+}
+#link_soc a:hover{
+  color:#b0e8f5;
+  font-size: 50px;
+}
+#photo_obj {
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: #040404cf;
+}
+.mephoto {
+  color: cornsilk;
+  float: left;
+  width: 40%;
+  padding: 5%;
+  text-align: center;
+}
+#std{
+  opacity: 75%;
+  font-size: 125%;
+}
+#varsity{
+  opacity: 90%;
+  font-size: 130%;
+}
+.meobj {
+  color: antiquewhite;
+  font-size: 23px;
+  text-align: justify;
+  float: right;
+  width: 60%;
+  padding: 5%;
+  margin-top: 7px;
+  
+}
+#int_sec{
+  text-align: left;
+  font-size: 19px;
+  float: left;
+  width: 40%;
+}
+#edu_sec{
+  font-size: 19px;
+  text-align: left;
+  float: right;
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 0%;
+  margin-top: 7px;
+}
+#edu_sec ul li{
+  margin: 3px;
+  padding: 8px;
+}
+#list_edu{
+  list-style-type: none;
+}
+.tab{
+  display: inline-block;
+  margin-left: 46px;
+}
+.tabs{
+  display: inline-block;
+  margin-left: 25px;
+}
+#edu_uni_name{
+  font-size: 20px;
+  opacity: 85%;
+}
+#V_name{
+  font-size: 18px;
+  opacity: 75%;
+}
+#sub_line_edu{
+  font-size: 17px;
+}
+#list_edu p{
+  margin: 1px;
+  padding: 1px;
+
+}
+@media only screen and (max-width: 620px) {
+  img{
+    border-radius: 100%;
+    width: 200px;
+  }
+ .mephoto, .meobj{
+    width: 100%;
+  }
+  .meobj{
+    font-size: 18px;
+  }
+  #edu_uni_name{
+    font-size: 15px;
+  }
+  #Int_sec, #edu_sec{
+    width: 100%;
+  }
+  #V_name{
+    font-size: 15px;
+  }
+  #sub_line_edu{
+    font-size: 14px;
+    padding-top: 3%;
+  }
+  #edu_sec ul li{
+    margin: 1px;
+    padding: 3px;
+  }
+}
