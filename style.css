@@ -124,3 +124,32 @@ img {
     padding: 3px;
   }
 }
+@media only screen and (min-width: 768px) {
+  img{
+    border-radius: 100%;
+    width: 200px;
+  }
+ .mephoto, .meobj{
+    width: 100%;
+  }
+  .meobj{
+    font-size: 18px;
+  }
+  #edu_uni_name{
+    font-size: 15px;
+  }
+  #Int_sec, #edu_sec{
+    width: 100%;
+  }
+  #V_name{
+    font-size: 15px;
+  }
+  #sub_line_edu{
+    font-size: 14px;
+    padding-top: 3%;
+  }
+  #edu_sec ul li{
+    margin: 1px;
+    padding: 3px;
+  }
+}
