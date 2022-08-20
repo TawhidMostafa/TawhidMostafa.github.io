@@ -1,0 +1,379 @@
+.tab{
+  display: inline-block;
+  margin-left: 55px;
+}
+.tabs{
+  display: inline-block;
+  margin-left: 25px;
+}
+.big_tab{
+  display: inline-block;
+  margin-left: 100px;
+}
+/* photo_obj section start */
+.mephoto img {
+  border-radius: 100%;
+  width: 300px;
+}
+#varsity a:link {
+  background-color: transparent;
+  text-decoration: none;
+  color: #B9DAEC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#link_soc a:link{
+  background-color: transparent;
+  text-decoration: none;
+  color: #b0e8f5;
+  font-size: 45px;
+  padding: 5px;
+}
+#link_soc a:hover{
+  color:#b0e8f5;
+  font-size: 50px;
+}
+#photo_obj {
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: #040404cf;
+}
+.mephoto {
+  color: white;
+  float: left;
+  width: 40%;
+  padding: 5%;
+  text-align: center;
+}
+#std{
+  opacity: 75%;
+  font-size: 125%;
+}
+#varsity{
+  opacity: 90%;
+  font-size: 130%;
+}
+.meobj {
+  color: white;
+  font-size: 23px;
+  text-align: justify;
+  float: right;
+  width: 60%;
+  padding: 5%;
+  padding-bottom: 2%;
+  margin-top: 7px;
+}
+#int_sec{
+  text-align: left;
+  font-size: 19px;
+  float: left;
+  width: 40%;
+}
+#skills_sec{
+  font-size: 19px;
+  text-align: left;
+  float: right;
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 0%;
+  margin-top: 7px;
+}
+#edu_sec ul li{
+  margin: 3px;
+  padding: 8px;
+}
+#list_skills{
+  list-style-type: none;
+}
+@media only screen and (max-width: 620px) {
+  .mephoto img{
+    border-radius: 100%;
+    width: 200px;
+  }
+ .mephoto, .meobj{
+    width: 100%;
+  }
+  .meobj{
+    font-size: 18px;
+  }
+  #Int_sec, #skills_sec{
+    width: 100%;
+  }
+}
+
+/* photo_obj section end */
+/* Educational Qualification section start*/
+#time_line_edu{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#time_line_sec{
+  box-sizing: border-box;
+  background-color: #090808e3;
+  color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.timeline {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  background-color: #5441eac5;
+  top: 17px;
+  bottom: 150px;
+  left: 50%;
+  margin-left: -3px;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #290ed9;
+  border: 4px solid wheat;
+  top: 15px;
+  border-radius: 100%;
+  z-index: 1;
+}
+.left {
+  left: -50%;
+}
+.right {
+  left: 50%;
+}
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 0px;
+  border-color: transparent transparent transparent white;
+}
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+.right::after {
+  left: -16px;
+}
+.content {
+  padding: 20px 30px;
+  background-color: #060202fb;
+  position: relative;
+  border-radius: 6px;
+}
+.time_line_varsity h4{
+  font-size: 19px;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+  left: 31px;
+  }
+  .time_line_varsity h3{
+    font-size: 19px;
+    text-align: justify;
+  }
+  .time_line_varsity h4{
+    font-size: 15.5px;
+    text-align: justify;
+  }
+  .time_line_varsity h5{
+    font-size: 14.6px;
+    text-align: justify;
+  }
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+  left: 15px;
+  }
+  .left {
+    left: 0%;
+  }
+  .right {
+    left: 0%;
+  }
+}
+
+/* Educational Qualification section end*/
+/* Certifications section start*/
+#time_line_cert{
+  padding-left: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cert_sec{
+  box-sizing: border-box;
+  background-color: #070707ea;
+  color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.right_cert {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  width: 90%;
+  left: 15%;
+}
+.content_cert {
+  padding: 20px 30px;
+  background-color: #2f2e2ee7;
+  position: relative;
+  border-radius: 6px;
+  font-size: 18px;
+}
+#cert_sec img{
+  border-radius: 100%;
+  width: 70px;
+}
+@media screen and (max-width: 600px) {
+  #cert_sec img{
+    border-radius: 100%;
+    width: 40px;
+  }
+  .right_cert {
+    width: 100%;
+    left: 0%;
+  }
+  .content_cert h4{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .content_cert h5{
+    font-size: 15.5px;
+    text-align: justify;
+  }
+  .content_cert{
+    font-size: 15.5px;
+  }
+  .content_cert .tabs{
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .content_cert .big_tab{
+    display: inline-block;
+    margin-left: 45px;
+  }
+}
+/* Certifications section end*/
+/* Contact section start*/
+#time_line_cont{
+  text-align: right;
+  padding-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cont_sec{
+  box-sizing: border-box;
+  background-color: #0d0909e0;
+  color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left_cont {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  width: 90%;
+  left: -15%;
+}
+.content_cont {
+  padding: 20px 30px;
+  background-color: #07070781;
+  position: relative;
+  border-radius: 6px;
+  font-size: 18px;
+  list-style-type: none;
+}
+.content_cont input[type=text], input[type=email], textarea {
+  border-radius: 25px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.content_cont button[type=submit] {
+  border-radius: 25px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.content_cont button[type=submit]:hover {
+  background-color: #45a049;
+}
+.cont_list{
+  padding-top: 5%;
+  list-style-type: none;
+}
+.cont_list #mail, #phon, #tele {
+  font-size: 40px;
+}
+#phon_time{
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+
+  .left_cont, button[type=submit] {
+    width: 100%;
+    left: 0%;
+  }
+  .cont_list{ padding-top: 3%;}
+  .cont_list h4{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .cont_list .tabs{
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .cont_list #mail, #phon, #tele {
+    font-size: 20px;
+  }
+  #phon_time{
+    font-size: 13px;
+  }
+}
+/* Contact section end*/
