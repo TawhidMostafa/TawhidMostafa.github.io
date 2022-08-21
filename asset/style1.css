@@ -1,0 +1,8 @@
+body{
+    zoom: 50%;
+}
+@media only screen and (max-width: 620px) {
+    body{
+        zoom: 15%;
+    }
+  }
